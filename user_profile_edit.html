@@ -1,0 +1,202 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+	
+	  <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+ 
+          
+	<style>
+
+	</style>
+    </head>
+
+    <body>
+	
+	     	 <!--Login Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+         
+		  <form class="col s12">
+			  <div class="row">
+				<div class="input-field col s12">
+				  <input placeholder="Placeholder" id="use" type="text" class="validate">
+				  <label for="user">User Name</label>
+				</div>
+				<div class="input-field col s12">
+				  <input id="psw" type="text" class="validate">
+				  <label for="psw">Password</label>
+				</div>
+			  </div>
+			   <a class="waves-effect waves-teal btn-flat">SUBMIT</a>
+	      </form>
+	  
+	  
+	  </div>
+    
+  </div>
+
+
+   <!--Create User Modal Structure -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+         
+		  <form class="col s12">
+			  <div class="row">
+				<div class="input-field col s12">
+				  <input placeholder="Placeholder" id="use" type="text" class="validate">
+				  <label for="user">User Name / Email</label>
+				</div>
+				<div class="input-field col s12">
+				  <input id="psw" type="text" class="validate">
+				  <label for="psw">Password</label>
+				</div>
+
+                <div class="input-field col s12">
+				  <input id="psw" type="text" class="validate">
+				  <label for="psw">Confirm Password</label>
+				</div>
+   
+                  <p>
+					  <input name="group1" type="radio" id="test1" />
+					  <label for="test1">Admin</label>
+
+                       <input name="group1" type="radio" id="test2" />
+					  <label for="test2">Restaurant</label>
+					</p>
+					
+			  </div>
+			   <a class="waves-effect waves-teal btn-flat">Create</a>
+	      </form>
+	  
+	  
+	  </div>
+    
+  </div>
+	
+	 
+ 
+ 
+	
+	  <nav>
+		<div class="nav-wrapper">
+		  <a href="#!" class="brand-logo center">DEka Murgi</a>
+		  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          
+		    <ul class="side-nav" id="mobile-demo">
+			    <li><div class="user-view">
+					  <div class="background">
+						<img src="images/banner.jpg">
+					  </div>
+					  <a href="#!user"><img class="circle" src="images/dp.png"></a>
+					  <a href="#!name"><span class="white-text name">Deka murgiwala</span></a>
+					  <a href="#!email"><span class="white-text email">dekamurgiwala@gmail.com</span></a>
+					</div>
+				</li>
+				<li><a href="#modal2" class="modal-trigger"><i class="material-icons">account_circle</i>Create New User</a></li>
+				<li><a href="user_detail.html"><i class="material-icons">person_pin</i>User Details</a></li>
+                <li><a href="order_history.html">Order History</a></li>
+			</ul>
+	  
+		  <ul class="right">
+		     
+			<li><a href="#"><i class="large material-icons">notifications_active</i></a></li>
+		  </ul>
+		  
+			
+		</div>
+	  </nav>
+	  
+	  <br>
+
+	  <div class="container-fluid">
+	        
+
+           <div class="row">
+              
+                 <h3 class="center red-text">User Profile Edit</h3>
+
+				<form class="col s12">
+				  <div class="row">
+					<div class="input-field col s12">
+					  <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+					  <label for="first_name">Name</label>
+					</div>
+					
+				  </div>
+
+                   <div class="row">
+					<div class="input-field col s12">
+					  <input id="email" type="email" class="validate">
+					  <label for="email">Email</label>
+					</div>
+				  </div>
+				 
+				   <div class="row">
+					<div class="input-field col s12">
+					  <textarea id="textarea1" class="materialize-textarea"></textarea>
+					  <label for="textarea1">Address</label>
+					</div>
+				  </div>
+
+                  <div class="row">
+                    <div class="input-field col s12">
+					 
+					  <input id="icon_telephone" type="tel" class="validate">
+					  <label for="icon_telephone">Telephone</label>
+					</div>
+
+                  </div>
+				 
+
+                     <a class="waves-effect waves-teal btn">SUBMIT</a>
+				  
+				</form>
+            </div>
+
+           
+        
+
+	  </div>
+ 
+        
+		
+   
+       <div class="fixed-action-btn toolbar">
+		<a class="btn-floating btn-large red">
+		  <i class="large material-icons">menu</i>
+		</a>
+		<ul>
+		   <li class="waves-effect waves-light white-text"><a href="poultry.html">Poultry</a></li>
+		  <li class="waves-effect waves-light white-text"><a href="meat.html">Meat</a></li>
+		  <li class="waves-effect waves-light white-text"><a href="stock.html">Stocks</a></li>
+		  <li class="waves-effect waves-light white-text"><a href="inventory_management.html">Products</a></li>
+		</ul>
+	  </div>
+	
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	  
+	   <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  
+     <script>
+	 
+     $(".button-collapse").sideNav();
+	 
+	 
+	 <!--login modal-->
+  $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+	 </script>
+    </body>
+  </html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.computeraptor.assamguide"
+        versionCode="1"
+        version   = "1.0">
+
+    <!-- versionCode is optional and Android only -->
+    <name>GDApp</name>
+
+    <description>
+        The best broiler murgi
+    </description>
+
+    <author href="https://www.computeraptor.com" email="ibtisam.tauhidi@hotmail.com">
+        Syed I. Tauhidi 
+    </author>
+	
+	<icon src="icon.png" />
+	<preference name="permissions" value="none"/>
+	<gap:plugin name="cordova-plugin-device" source="npm" />
+	<gap:plugin name="cordova-plugin-geolocation" source="npm" />
+	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<access origin="tel:*" launch-external="yes"/>
+	<access origin="geo:*" launch-external="yes"/>
+	<plugin name="cordova-plugin-whitelist" version="1"/>
+	<allow-intent href="tel:*"/>
+	<allow-intent href="geo:*"/>
+	<allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
+	<access origin="*" />
+</widget>
