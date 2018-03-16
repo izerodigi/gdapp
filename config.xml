@@ -16,7 +16,7 @@
         Syed I. Tauhidi 
     </author>
 	
-	<icon src="icon.png" />
+	<icon src="logo.png" />
 	<preference name="permissions" value="none"/>
 	<gap:plugin name="cordova-plugin-device" source="npm" />
 	<gap:plugin name="cordova-plugin-geolocation" source="npm" />
